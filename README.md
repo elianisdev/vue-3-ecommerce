@@ -1,5 +1,35 @@
 # vue-3-ecommerce
 
+tienda Online con Vue 3 y Vite
+
+## Entities
+
+## Product
+
+-id
+-name
+-description    
+-price
+-image
+
+## category
+
+-name
+-description
+
+## Cart
+- Products : Product [{id: 1, quantity: 2}, {id: 2, quantity: 1}]
+
+
+## Components
+
+##ProductListCard
+
+## Pages
+- / -> Todos los productos
+- /cart -> Carrito de compras
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
