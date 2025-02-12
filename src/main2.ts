@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 //import { createPinia } from 'pinia'
 
 //import App from './App.vue'
-import ContadorComponent from './ContadorComponent.vue'
+import ContadorComponent from './examples/ContadorComponent.vue'
 //import router from './router'
 
 const app = createApp(ContadorComponent)

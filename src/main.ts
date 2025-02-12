@@ -1,7 +1,7 @@
 
 import { createApp } from 'vue'
 
-import ContadorComponent from './ContadorComponent.vue'
+import ContadorComponent from './examples/ContadorComponent.vue'
 
 
 const app = createApp(ContadorComponent)
