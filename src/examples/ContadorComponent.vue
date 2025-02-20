@@ -1,4 +1,4 @@
-<script  lang="ts"> //componente usando option API
+<script lang="ts"> //componente usando option API
 export default {
  data(){// data es una funcion que retorna un objeto define el estado del componente y ya se usa en el template
    return {
