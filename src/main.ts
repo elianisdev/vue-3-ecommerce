@@ -1,11 +1,11 @@
 
 import { createApp } from 'vue'
 
-import ContadorComponent from './examples/ContadorComponent.vue'
+//import ContadorComponent from './examples/ContadorComponent.vue'
 
+import ContadorComposition from './examples/ContadorComposition.vue'
+const app = createApp(ContadorComposition)
 
-const app = createApp(ContadorComponent)
-
-app.component('ContadorComponent', ContadorComponent)
+app.component('ContadorComponent', ContadorComposition)
 
 app.mount('#app')
