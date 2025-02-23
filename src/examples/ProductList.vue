@@ -14,17 +14,16 @@ products: [
 ]
     }
   },
-  methods: {
-
-  }
-
 }
 
 </script>
 
 <template>
-<ProductCard v-for= "product in products" />
-</template> //template es el html del componente lo que se muestra al usuario
+<ProductCard
+  v-for="product in products"
+  :product="product"
+  :key="product.name" />
+</template>
 
 <style scoped>
 

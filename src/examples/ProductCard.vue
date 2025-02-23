@@ -1,21 +1,13 @@
 <script lang="ts">
 export default {
-  data(){
-    return {
-  product: {
-    name: "Silla",
-    price: 100,
-  }
-    }
-  }
+  props: ['product']
 }
 </script>
 
 <template>
- <p>{{ product.name}}</p>
-  <p>{{ product.price }}</p>
-
-
+ <p>Nombre: {{ product.name}}</p>
+  <p>Precio: {{ product.price }}</p>
+  <hr />
 </template>
 <style scoped>
 
