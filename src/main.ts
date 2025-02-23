@@ -3,9 +3,9 @@ import { createApp } from 'vue'
 
 //import ContadorComponent from './examples/ContadorComponent.vue'
 
-import ContadorComposition from './examples/ContadorComposition.vue'
-const app = createApp(ContadorComposition)
+import ProductList from './examples/ProductList.vue'
+const app = createApp(ProductList)
 
-app.component('ContadorComponent', ContadorComposition)
+app.component('ProductList', ProductList)
 
 app.mount('#app')

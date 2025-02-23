@@ -20,9 +20,13 @@ export default {
 </script>
 
 <template>
+  <p>Tienes que llegar a 20 clicks</p>
 <h1>Contador: {{ count }}</h1>
 <button @click="increase">Incrementar</button> //evento click que incrementa el valor de count y se llama al metodo increase
   <button @click="dismind">Disminuir</button>
+
+  <p v-if="count <=10" i>Vamos se puede aprender</p>
+  <p v-else>Ya te falta muy poco....</p>
 </template> //template es el html del componente lo que se muestra al usuario
 
 <style scoped>
