@@ -22,7 +22,7 @@ export default {
     onAddProduct(productId: number) {
      const detailFound = this.details.find(detail => detail.productId === productId);
     if (detailFound) {
-      detailFound.quantity++;
+      detailFound.quantity +=1;
     } else {
       this.details.push({
         productId,

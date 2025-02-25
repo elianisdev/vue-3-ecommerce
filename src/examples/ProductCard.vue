@@ -10,24 +10,23 @@ export default {
     }
   },
   emits: ['addProduct'],
-  methods : {
-    onAddProduct(productId: number){
+  methods: {
+    onAddProduct(productId: number) {
       console.log('Agregando al carrito' + productId);
-
-    }
     }
   }
-
+}
 </script>
 
 <template>
-  <p>Nombre: {{ product.name }}</p>
-  <p>Precio: {{ product.price }}</p>
-  <button @click="onAddProduct(product.id)">
-    Agregar al carrito
-  </button>
-  <hr />
-
+  <v-card text="primary">
+    <p>Nombre: {{ product.name }}</p>
+    <p>Precio: {{ product.price }}</p>
+    <button @click="onAddProduct(product.id)">
+      Agregar al carrito
+    </button>
+    <hr />
+  </v-card>
 </template>
 
 <style scoped>
