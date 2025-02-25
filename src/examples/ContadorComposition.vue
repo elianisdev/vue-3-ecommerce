@@ -14,7 +14,7 @@ onMounted(() => {
 <p>Hola soy la version con composition api</p>
   <h1>Contador: {{ count }}</h1>
   <button @click="increment">Incrementar</button>
-  <button @click="count--">Decrementar</button>
+  <button @click="count--">Decrementar.</button>
 
 </template>
 
